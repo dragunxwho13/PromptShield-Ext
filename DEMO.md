@@ -2,7 +2,7 @@
 
 **Submission link:** https://youtube.com/shorts/WnED4S-kZzI?si=R__YpNLdSbrICLch
 
-## 45-second recording script
+## 1 Minute 30 second recording script
 
 1. Open `chrome://extensions` and show **Safe Agent Supervisor** enabled.
 2. Open the extension side panel. Point out “Protection enabled” and the empty activity log.
