@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Safe Agent Supervisor",
+  "version": "0.1.0",
+  "description": "Prototype browser supervisor that detects and neutralizes prompt injection in untrusted page content.",
+  "permissions": ["storage", "activeTab", "scripting", "sidePanel"],
+  "action": { "default_title": "Safe Agent Supervisor" },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }]
+}
