@@ -26,7 +26,7 @@ Use the toggle in the side panel to pause or enable scanning. The prototype keep
 
 ## Demo video
 
-Record the 45-second walkthrough in [DEMO.md](DEMO.md), upload it as an unlisted YouTube/Drive video, and replace the placeholder link there before submitting.
+Record the 1 Minute 30 seconds walkthrough in [DEMO.md](DEMO.md), upload it as an unlisted YouTube/Drive video, and replace the placeholder link there before submitting.
 
 ## Project layout
 
